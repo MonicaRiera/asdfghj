@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<categories>
+  <category>
+    <name>Restaurants</name>
+    <imageurl>/Assets/Restaurant.jpg</imageurl>
+  </category>
+  <category>
+    <name>Museums</name>
+    <imageurl>/Assets/Museum.jpg</imageurl>
+  </category>
+  <category>
+    <name>Entertainment</name>
+    <imageurl>/Assets/Entertain.jpg</imageurl>
+  </category>
+  <category>
+    <name>Night Life</name>
+    <imageurl>/Assets/Night.jpg</imageurl>
+  </category>
+  <category>
+    <name>Hotels and Hostals</name>
+    <imageurl>/Assets/Hotel.jpg</imageurl>
+  </category>
+  <category>
+    <name>Others</name>
+    <imageurl>/Assets/Roskilde.jpg</imageurl>
+  </category>
+</categories>
+
