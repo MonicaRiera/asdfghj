@@ -173,8 +173,14 @@
     <AppxPackagedFile Include="C:\Users\Mònica\Downloads\TouristAppV3-master\TouristAppV3-master\TouristAppV3\Assets\xml\CategoryItems.xml">
       <PackagePath>Assets\xml\CategoryItems.xml</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mònica\Downloads\TouristAppV3-master\TouristAppV3-master\TouristAppV3\Assets\xml\Comments.xml">
+      <PackagePath>Assets\xml\Comments.xml</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Mònica\Downloads\TouristAppV3-master\TouristAppV3-master\TouristAppV3\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mònica\Downloads\TouristAppV3-master\TouristAppV3-master\TouristAppV3\bin\Debug\View\CommentView.xbf">
+      <PackagePath>View\CommentView.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Mònica\Downloads\TouristAppV3-master\TouristAppV3-master\TouristAppV3\bin\Debug\View\MainPage.xbf">
       <PackagePath>View\MainPage.xbf</PackagePath>

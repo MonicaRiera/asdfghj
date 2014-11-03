@@ -36,8 +36,8 @@
         <TextBlock HorizontalAlignment="Left" Height="112" Margin="385,284,0,0" TextWrapping="Wrap" Text="{Binding SelectedCategoryItemModel.Email, Mode=TwoWay}" VerticalAlignment="Top" Width="406" Style="{StaticResource SubheaderTextBlockStyle}"/>
         <TextBlock HorizontalAlignment="Left" Height="119" Margin="385,517,0,0" TextWrapping="Wrap" Text="{Binding SelectedCategoryItemModel.Phone, Mode=TwoWay}" VerticalAlignment="Top" Width="406" Style="{StaticResource SubheaderTextBlockStyle}"/>
         <TextBlock HorizontalAlignment="Left" Height="111" Margin="385,401,0,0" TextWrapping="Wrap" Text="{Binding SelectedCategoryItemModel.Web, Mode=TwoWay}" VerticalAlignment="Top" Width="406" Style="{StaticResource SubheaderTextBlockStyle}"/>
-        <Image HorizontalAlignment="Center" Height="469" Margin="830,167,0,0" VerticalAlignment="Center" Width="470" Source="{Binding SelectedCategoryItemModel.ImageUrl, Mode=TwoWay}"/>
         <Button x:ConnectionId='1' Content="Order a ticket" HorizontalAlignment="Left" Margin="1210,704,0,0" VerticalAlignment="Top" Width="126"                     />
+        <Image x:ConnectionId='2' HorizontalAlignment="Center" Height="424" Margin="908,167,50,177" VerticalAlignment="Center" Width="408" Source="{Binding SelectedCategoryItemModel.ImageUrl, Mode=TwoWay}"                                  />
 
     </Grid>
 </Page>

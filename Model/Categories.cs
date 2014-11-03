@@ -38,6 +38,7 @@ namespace TouristAppV3.Model
             set { _imageUrl = value; }
         }
 
+
         public event NotifyCollectionChangedEventHandler CollectionChanged;
     }
 }

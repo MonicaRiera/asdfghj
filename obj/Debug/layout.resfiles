@@ -48,7 +48,9 @@ Assets\VikingShip.jpg
 Assets\Wittrup.jpg
 Assets\xml\Categories.xml
 Assets\xml\CategoryItems.xml
+Assets\xml\Comments.xml
 App.xbf
 TouristAppV3.xr.xml
+View\CommentView.xbf
 View\MainPage.xbf
 View\OrderPageView.xbf

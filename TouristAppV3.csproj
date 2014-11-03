@@ -110,10 +110,15 @@
     </Compile>
     <Compile Include="Model\Categories.cs" />
     <Compile Include="Model\CategoryItemModel.cs" />
+    <Compile Include="Model\CommentModel.cs" />
     <Compile Include="Properties\Annotations.cs" />
+    <Compile Include="ViewModel\CommentViewModel.cs" />
     <Compile Include="ViewModel\MainViewModel.cs" />
     <Compile Include="Common\RelayCommand.cs" />
     <Compile Include="ViewModel\OrderViewModel.cs" />
+    <Compile Include="View\CommentView.xaml.cs">
+      <DependentUpon>CommentView.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -178,13 +183,22 @@
     <Content Include="Assets\VikingShip.jpg" />
     <Content Include="Assets\Wittrup.jpg" />
     <Content Include="Assets\xml\Categories.xml" />
-    <Content Include="Assets\xml\CategoryItems.xml" />
+    <Content Include="Assets\xml\CategoryItems.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Assets\xml\Comments.xml">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="View\CommentView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="View\MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

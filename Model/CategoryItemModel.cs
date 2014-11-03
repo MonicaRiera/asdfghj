@@ -18,6 +18,13 @@ namespace TouristAppV3.Model
         private string _email;
         private string _phone;
         private string _category;
+        private List<CommentModel> _comments;
+
+        public List<CommentModel> Comments
+        {
+            get { return _comments; }
+            set { _comments = value; }
+        }
 
         public String Name
         {

@@ -124,43 +124,55 @@ namespace TouristAppV3.TouristAppV3_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[17];
-            _typeNameTable[0] = "TouristAppV3.ViewModel.MainViewModel";
+            _typeNameTable = new string[23];
+            _typeNameTable[0] = "TouristAppV3.ViewModel.CommentViewModel";
             _typeNameTable[1] = "Object";
             _typeNameTable[2] = "System.Windows.Input.ICommand";
-            _typeNameTable[3] = "TouristAppV3.Model.Categories";
-            _typeNameTable[4] = "System.Collections.ObjectModel.ObservableCollection`1<TouristAppV3.Model.Categories>";
-            _typeNameTable[5] = "System.Collections.ObjectModel.Collection`1<TouristAppV3.Model.Categories>";
-            _typeNameTable[6] = "String";
-            _typeNameTable[7] = "System.Collections.Generic.List`1<TouristAppV3.Model.CategoryItemModel>";
-            _typeNameTable[8] = "TouristAppV3.Model.CategoryItemModel";
-            _typeNameTable[9] = "Windows.UI.Xaml.Controls.ComboBox";
-            _typeNameTable[10] = "System.Collections.ObjectModel.ObservableCollection`1<TouristAppV3.Model.CategoryItemModel>";
-            _typeNameTable[11] = "System.Collections.ObjectModel.Collection`1<TouristAppV3.Model.CategoryItemModel>";
-            _typeNameTable[12] = "TouristAppV3.MainPage";
-            _typeNameTable[13] = "Windows.UI.Xaml.Controls.Page";
-            _typeNameTable[14] = "Windows.UI.Xaml.Controls.UserControl";
-            _typeNameTable[15] = "TouristAppV3.ViewModel.OrderViewModel";
-            _typeNameTable[16] = "TouristAppV3.View.OrderPageView";
+            _typeNameTable[3] = "System.Collections.Generic.List`1<TouristAppV3.Model.CommentModel>";
+            _typeNameTable[4] = "TouristAppV3.Model.CommentModel";
+            _typeNameTable[5] = "String";
+            _typeNameTable[6] = "TouristAppV3.Model.CategoryItemModel";
+            _typeNameTable[7] = "System.Collections.ObjectModel.ObservableCollection`1<TouristAppV3.Model.Categories>";
+            _typeNameTable[8] = "System.Collections.ObjectModel.Collection`1<TouristAppV3.Model.Categories>";
+            _typeNameTable[9] = "TouristAppV3.Model.Categories";
+            _typeNameTable[10] = "System.Collections.Generic.List`1<TouristAppV3.Model.CategoryItemModel>";
+            _typeNameTable[11] = "Windows.UI.Xaml.Controls.ComboBox";
+            _typeNameTable[12] = "System.Collections.ObjectModel.ObservableCollection`1<TouristAppV3.Model.CategoryItemModel>";
+            _typeNameTable[13] = "System.Collections.ObjectModel.Collection`1<TouristAppV3.Model.CategoryItemModel>";
+            _typeNameTable[14] = "System.Collections.ObjectModel.ObservableCollection`1<TouristAppV3.Model.CommentModel>";
+            _typeNameTable[15] = "System.Collections.ObjectModel.Collection`1<TouristAppV3.Model.CommentModel>";
+            _typeNameTable[16] = "TouristAppV3.View.CommentView";
+            _typeNameTable[17] = "Windows.UI.Xaml.Controls.Page";
+            _typeNameTable[18] = "Windows.UI.Xaml.Controls.UserControl";
+            _typeNameTable[19] = "TouristAppV3.ViewModel.MainViewModel";
+            _typeNameTable[20] = "TouristAppV3.MainPage";
+            _typeNameTable[21] = "TouristAppV3.ViewModel.OrderViewModel";
+            _typeNameTable[22] = "TouristAppV3.View.OrderPageView";
 
-            _typeTable = new global::System.Type[17];
-            _typeTable[0] = typeof(global::TouristAppV3.ViewModel.MainViewModel);
+            _typeTable = new global::System.Type[23];
+            _typeTable[0] = typeof(global::TouristAppV3.ViewModel.CommentViewModel);
             _typeTable[1] = typeof(global::System.Object);
             _typeTable[2] = typeof(global::System.Windows.Input.ICommand);
-            _typeTable[3] = typeof(global::TouristAppV3.Model.Categories);
-            _typeTable[4] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::TouristAppV3.Model.Categories>);
-            _typeTable[5] = typeof(global::System.Collections.ObjectModel.Collection<global::TouristAppV3.Model.Categories>);
-            _typeTable[6] = typeof(global::System.String);
-            _typeTable[7] = typeof(global::System.Collections.Generic.List<global::TouristAppV3.Model.CategoryItemModel>);
-            _typeTable[8] = typeof(global::TouristAppV3.Model.CategoryItemModel);
-            _typeTable[9] = typeof(global::Windows.UI.Xaml.Controls.ComboBox);
-            _typeTable[10] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::TouristAppV3.Model.CategoryItemModel>);
-            _typeTable[11] = typeof(global::System.Collections.ObjectModel.Collection<global::TouristAppV3.Model.CategoryItemModel>);
-            _typeTable[12] = typeof(global::TouristAppV3.MainPage);
-            _typeTable[13] = typeof(global::Windows.UI.Xaml.Controls.Page);
-            _typeTable[14] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
-            _typeTable[15] = typeof(global::TouristAppV3.ViewModel.OrderViewModel);
-            _typeTable[16] = typeof(global::TouristAppV3.View.OrderPageView);
+            _typeTable[3] = typeof(global::System.Collections.Generic.List<global::TouristAppV3.Model.CommentModel>);
+            _typeTable[4] = typeof(global::TouristAppV3.Model.CommentModel);
+            _typeTable[5] = typeof(global::System.String);
+            _typeTable[6] = typeof(global::TouristAppV3.Model.CategoryItemModel);
+            _typeTable[7] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::TouristAppV3.Model.Categories>);
+            _typeTable[8] = typeof(global::System.Collections.ObjectModel.Collection<global::TouristAppV3.Model.Categories>);
+            _typeTable[9] = typeof(global::TouristAppV3.Model.Categories);
+            _typeTable[10] = typeof(global::System.Collections.Generic.List<global::TouristAppV3.Model.CategoryItemModel>);
+            _typeTable[11] = typeof(global::Windows.UI.Xaml.Controls.ComboBox);
+            _typeTable[12] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::TouristAppV3.Model.CategoryItemModel>);
+            _typeTable[13] = typeof(global::System.Collections.ObjectModel.Collection<global::TouristAppV3.Model.CategoryItemModel>);
+            _typeTable[14] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::TouristAppV3.Model.CommentModel>);
+            _typeTable[15] = typeof(global::System.Collections.ObjectModel.Collection<global::TouristAppV3.Model.CommentModel>);
+            _typeTable[16] = typeof(global::TouristAppV3.View.CommentView);
+            _typeTable[17] = typeof(global::Windows.UI.Xaml.Controls.Page);
+            _typeTable[18] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
+            _typeTable[19] = typeof(global::TouristAppV3.ViewModel.MainViewModel);
+            _typeTable[20] = typeof(global::TouristAppV3.MainPage);
+            _typeTable[21] = typeof(global::TouristAppV3.ViewModel.OrderViewModel);
+            _typeTable[22] = typeof(global::TouristAppV3.View.OrderPageView);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -195,45 +207,69 @@ namespace TouristAppV3.TouristAppV3_XamlTypeInfo
             return -1;
         }
 
-        private object Activate_0_MainViewModel() { return new global::TouristAppV3.ViewModel.MainViewModel(); }
-        private object Activate_3_Categories() { return new global::TouristAppV3.Model.Categories(); }
-        private object Activate_4_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::TouristAppV3.Model.Categories>(); }
-        private object Activate_5_Collection() { return new global::System.Collections.ObjectModel.Collection<global::TouristAppV3.Model.Categories>(); }
-        private object Activate_7_List() { return new global::System.Collections.Generic.List<global::TouristAppV3.Model.CategoryItemModel>(); }
-        private object Activate_8_CategoryItemModel() { return new global::TouristAppV3.Model.CategoryItemModel(); }
-        private object Activate_10_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::TouristAppV3.Model.CategoryItemModel>(); }
-        private object Activate_11_Collection() { return new global::System.Collections.ObjectModel.Collection<global::TouristAppV3.Model.CategoryItemModel>(); }
-        private object Activate_12_MainPage() { return new global::TouristAppV3.MainPage(); }
-        private object Activate_15_OrderViewModel() { return new global::TouristAppV3.ViewModel.OrderViewModel(); }
-        private object Activate_16_OrderPageView() { return new global::TouristAppV3.View.OrderPageView(); }
-        private void VectorAdd_4_ObservableCollection(object instance, object item)
+        private object Activate_0_CommentViewModel() { return new global::TouristAppV3.ViewModel.CommentViewModel(); }
+        private object Activate_3_List() { return new global::System.Collections.Generic.List<global::TouristAppV3.Model.CommentModel>(); }
+        private object Activate_4_CommentModel() { return new global::TouristAppV3.Model.CommentModel(); }
+        private object Activate_6_CategoryItemModel() { return new global::TouristAppV3.Model.CategoryItemModel(); }
+        private object Activate_7_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::TouristAppV3.Model.Categories>(); }
+        private object Activate_8_Collection() { return new global::System.Collections.ObjectModel.Collection<global::TouristAppV3.Model.Categories>(); }
+        private object Activate_9_Categories() { return new global::TouristAppV3.Model.Categories(); }
+        private object Activate_10_List() { return new global::System.Collections.Generic.List<global::TouristAppV3.Model.CategoryItemModel>(); }
+        private object Activate_12_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::TouristAppV3.Model.CategoryItemModel>(); }
+        private object Activate_13_Collection() { return new global::System.Collections.ObjectModel.Collection<global::TouristAppV3.Model.CategoryItemModel>(); }
+        private object Activate_14_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::TouristAppV3.Model.CommentModel>(); }
+        private object Activate_15_Collection() { return new global::System.Collections.ObjectModel.Collection<global::TouristAppV3.Model.CommentModel>(); }
+        private object Activate_16_CommentView() { return new global::TouristAppV3.View.CommentView(); }
+        private object Activate_19_MainViewModel() { return new global::TouristAppV3.ViewModel.MainViewModel(); }
+        private object Activate_20_MainPage() { return new global::TouristAppV3.MainPage(); }
+        private object Activate_21_OrderViewModel() { return new global::TouristAppV3.ViewModel.OrderViewModel(); }
+        private object Activate_22_OrderPageView() { return new global::TouristAppV3.View.OrderPageView(); }
+        private void VectorAdd_3_List(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::TouristAppV3.Model.CommentModel>)instance;
+            var newItem = (global::TouristAppV3.Model.CommentModel)item;
+            collection.Add(newItem);
+        }
+        private void VectorAdd_7_ObservableCollection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::TouristAppV3.Model.Categories>)instance;
             var newItem = (global::TouristAppV3.Model.Categories)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_5_Collection(object instance, object item)
+        private void VectorAdd_8_Collection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::TouristAppV3.Model.Categories>)instance;
             var newItem = (global::TouristAppV3.Model.Categories)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_7_List(object instance, object item)
+        private void VectorAdd_10_List(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::TouristAppV3.Model.CategoryItemModel>)instance;
             var newItem = (global::TouristAppV3.Model.CategoryItemModel)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_10_ObservableCollection(object instance, object item)
+        private void VectorAdd_12_ObservableCollection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::TouristAppV3.Model.CategoryItemModel>)instance;
             var newItem = (global::TouristAppV3.Model.CategoryItemModel)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_11_Collection(object instance, object item)
+        private void VectorAdd_13_Collection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::TouristAppV3.Model.CategoryItemModel>)instance;
             var newItem = (global::TouristAppV3.Model.CategoryItemModel)item;
+            collection.Add(newItem);
+        }
+        private void VectorAdd_14_ObservableCollection(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::TouristAppV3.Model.CommentModel>)instance;
+            var newItem = (global::TouristAppV3.Model.CommentModel)item;
+            collection.Add(newItem);
+        }
+        private void VectorAdd_15_Collection(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::TouristAppV3.Model.CommentModel>)instance;
+            var newItem = (global::TouristAppV3.Model.CommentModel)item;
             collection.Add(newItem);
         }
 
@@ -247,17 +283,21 @@ namespace TouristAppV3.TouristAppV3_XamlTypeInfo
             switch (typeIndex)
             {
 
-            case 0:   //  TouristAppV3.ViewModel.MainViewModel
+            case 0:   //  TouristAppV3.ViewModel.CommentViewModel
                 userType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_0_MainViewModel;
-                userType.AddMemberName("EditCategoryItemName");
-                userType.AddMemberName("SelectedCategory");
+                userType.Activator = Activate_0_CommentViewModel;
+                userType.AddMemberName("DeleteSelectedComment");
+                userType.AddMemberName("Comments");
+                userType.AddMemberName("SelectedItrem");
                 userType.AddMemberName("CategoriesModels");
-                userType.AddMemberName("RemoveSelectedCategoryItem");
-                userType.AddMemberName("AddNewCategoryItem");
-                userType.AddMemberName("NewCategoryItemModel");
-                userType.AddMemberName("SelectedCategoryItemModel");
                 userType.AddMemberName("CategoryItems");
+                userType.AddMemberName("CommentModels");
+                userType.AddMemberName("SelectedCategoryItemModel");
+                userType.AddMemberName("SelectedCategory");
+                userType.AddMemberName("SelectedCommentModel");
+                userType.AddMemberName("NewCommentModel");
+                userType.AddMemberName("AddNewComment");
+                userType.AddMemberName("SaveNewComment");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -272,45 +312,31 @@ namespace TouristAppV3.TouristAppV3_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 3:   //  TouristAppV3.Model.Categories
+            case 3:   //  System.Collections.Generic.List`1<TouristAppV3.Model.CommentModel>
                 userType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_3_Categories;
+                userType.CollectionAdd = VectorAdd_3_List;
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 4:   //  TouristAppV3.Model.CommentModel
+                userType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.Activator = Activate_4_CommentModel;
+                userType.AddMemberName("CommentsModels");
                 userType.AddMemberName("Name");
-                userType.AddMemberName("CategoryItems");
-                userType.AddMemberName("CategBox");
-                userType.AddMemberName("ImageUrl");
+                userType.AddMemberName("Content");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 4:   //  System.Collections.ObjectModel.ObservableCollection`1<TouristAppV3.Model.Categories>
-                userType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.Collection`1<TouristAppV3.Model.Categories>"));
-                userType.CollectionAdd = VectorAdd_4_ObservableCollection;
-                userType.SetIsReturnTypeStub();
-                xamlType = userType;
-                break;
-
-            case 5:   //  System.Collections.ObjectModel.Collection`1<TouristAppV3.Model.Categories>
-                userType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_5_Collection;
-                userType.CollectionAdd = VectorAdd_5_Collection;
-                xamlType = userType;
-                break;
-
-            case 6:   //  String
+            case 5:   //  String
                 xamlType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 7:   //  System.Collections.Generic.List`1<TouristAppV3.Model.CategoryItemModel>
+            case 6:   //  TouristAppV3.Model.CategoryItemModel
                 userType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.CollectionAdd = VectorAdd_7_List;
-                userType.SetIsReturnTypeStub();
-                xamlType = userType;
-                break;
-
-            case 8:   //  TouristAppV3.Model.CategoryItemModel
-                userType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_8_CategoryItemModel;
+                userType.Activator = Activate_6_CategoryItemModel;
+                userType.AddMemberName("Comments");
                 userType.AddMemberName("Name");
                 userType.AddMemberName("Adress");
                 userType.AddMemberName("ImageUrl");
@@ -322,42 +348,110 @@ namespace TouristAppV3.TouristAppV3_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 9:   //  Windows.UI.Xaml.Controls.ComboBox
-                xamlType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 10:   //  System.Collections.ObjectModel.ObservableCollection`1<TouristAppV3.Model.CategoryItemModel>
-                userType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.Collection`1<TouristAppV3.Model.CategoryItemModel>"));
-                userType.CollectionAdd = VectorAdd_10_ObservableCollection;
+            case 7:   //  System.Collections.ObjectModel.ObservableCollection`1<TouristAppV3.Model.Categories>
+                userType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.Collection`1<TouristAppV3.Model.Categories>"));
+                userType.CollectionAdd = VectorAdd_7_ObservableCollection;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 11:   //  System.Collections.ObjectModel.Collection`1<TouristAppV3.Model.CategoryItemModel>
+            case 8:   //  System.Collections.ObjectModel.Collection`1<TouristAppV3.Model.Categories>
                 userType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_11_Collection;
-                userType.CollectionAdd = VectorAdd_11_Collection;
+                userType.Activator = Activate_8_Collection;
+                userType.CollectionAdd = VectorAdd_8_Collection;
                 xamlType = userType;
                 break;
 
-            case 12:   //  TouristAppV3.MainPage
-                userType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_12_MainPage;
+            case 9:   //  TouristAppV3.Model.Categories
+                userType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.Activator = Activate_9_Categories;
+                userType.AddMemberName("Name");
+                userType.AddMemberName("CategoryItems");
+                userType.AddMemberName("CategBox");
+                userType.AddMemberName("ImageUrl");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 13:   //  Windows.UI.Xaml.Controls.Page
-                xamlType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 14:   //  Windows.UI.Xaml.Controls.UserControl
-                xamlType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 15:   //  TouristAppV3.ViewModel.OrderViewModel
+            case 10:   //  System.Collections.Generic.List`1<TouristAppV3.Model.CategoryItemModel>
                 userType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_15_OrderViewModel;
+                userType.CollectionAdd = VectorAdd_10_List;
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 11:   //  Windows.UI.Xaml.Controls.ComboBox
+                xamlType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 12:   //  System.Collections.ObjectModel.ObservableCollection`1<TouristAppV3.Model.CategoryItemModel>
+                userType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.Collection`1<TouristAppV3.Model.CategoryItemModel>"));
+                userType.CollectionAdd = VectorAdd_12_ObservableCollection;
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 13:   //  System.Collections.ObjectModel.Collection`1<TouristAppV3.Model.CategoryItemModel>
+                userType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.Activator = Activate_13_Collection;
+                userType.CollectionAdd = VectorAdd_13_Collection;
+                xamlType = userType;
+                break;
+
+            case 14:   //  System.Collections.ObjectModel.ObservableCollection`1<TouristAppV3.Model.CommentModel>
+                userType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.Collection`1<TouristAppV3.Model.CommentModel>"));
+                userType.CollectionAdd = VectorAdd_14_ObservableCollection;
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 15:   //  System.Collections.ObjectModel.Collection`1<TouristAppV3.Model.CommentModel>
+                userType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.Activator = Activate_15_Collection;
+                userType.CollectionAdd = VectorAdd_15_Collection;
+                xamlType = userType;
+                break;
+
+            case 16:   //  TouristAppV3.View.CommentView
+                userType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_16_CommentView;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 17:   //  Windows.UI.Xaml.Controls.Page
+                xamlType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 18:   //  Windows.UI.Xaml.Controls.UserControl
+                xamlType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 19:   //  TouristAppV3.ViewModel.MainViewModel
+                userType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.Activator = Activate_19_MainViewModel;
+                userType.AddMemberName("EditCategoryItemName");
+                userType.AddMemberName("SelectedCategory");
+                userType.AddMemberName("CategoriesModels");
+                userType.AddMemberName("RemoveSelectedCategoryItem");
+                userType.AddMemberName("AddNewCategoryItem");
+                userType.AddMemberName("NewCategoryItemModel");
+                userType.AddMemberName("SelectedCategoryItemModel");
+                userType.AddMemberName("CategoryItems");
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 20:   //  TouristAppV3.MainPage
+                userType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_20_MainPage;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 21:   //  TouristAppV3.ViewModel.OrderViewModel
+                userType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.Activator = Activate_21_OrderViewModel;
                 userType.AddMemberName("SelectedCategory");
                 userType.AddMemberName("CategoriesModels");
                 userType.AddMemberName("SelectedCategoryItemModel");
@@ -366,9 +460,9 @@ namespace TouristAppV3.TouristAppV3_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 16:   //  TouristAppV3.View.OrderPageView
+            case 22:   //  TouristAppV3.View.OrderPageView
                 userType = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_16_OrderPageView;
+                userType.Activator = Activate_22_OrderPageView;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -377,232 +471,392 @@ namespace TouristAppV3.TouristAppV3_XamlTypeInfo
         }
 
 
-        private object get_0_MainViewModel_EditCategoryItemName(object instance)
+        private object get_0_CommentViewModel_DeleteSelectedComment(object instance)
         {
-            var that = (global::TouristAppV3.ViewModel.MainViewModel)instance;
-            return that.EditCategoryItemName;
+            var that = (global::TouristAppV3.ViewModel.CommentViewModel)instance;
+            return that.DeleteSelectedComment;
         }
-        private void set_0_MainViewModel_EditCategoryItemName(object instance, object Value)
+        private void set_0_CommentViewModel_DeleteSelectedComment(object instance, object Value)
         {
-            var that = (global::TouristAppV3.ViewModel.MainViewModel)instance;
-            that.EditCategoryItemName = (global::System.Windows.Input.ICommand)Value;
+            var that = (global::TouristAppV3.ViewModel.CommentViewModel)instance;
+            that.DeleteSelectedComment = (global::System.Windows.Input.ICommand)Value;
         }
-        private object get_1_MainViewModel_SelectedCategory(object instance)
+        private object get_1_CommentViewModel_Comments(object instance)
         {
-            var that = (global::TouristAppV3.ViewModel.MainViewModel)instance;
-            return that.SelectedCategory;
+            var that = (global::TouristAppV3.ViewModel.CommentViewModel)instance;
+            return that.Comments;
         }
-        private void set_1_MainViewModel_SelectedCategory(object instance, object Value)
+        private void set_1_CommentViewModel_Comments(object instance, object Value)
         {
-            var that = (global::TouristAppV3.ViewModel.MainViewModel)instance;
-            that.SelectedCategory = (global::TouristAppV3.Model.Categories)Value;
+            var that = (global::TouristAppV3.ViewModel.CommentViewModel)instance;
+            that.Comments = (global::System.Collections.Generic.List<global::TouristAppV3.Model.CommentModel>)Value;
         }
-        private object get_2_MainViewModel_CategoriesModels(object instance)
+        private object get_2_CommentModel_CommentsModels(object instance)
         {
-            var that = (global::TouristAppV3.ViewModel.MainViewModel)instance;
+            var that = (global::TouristAppV3.Model.CommentModel)instance;
+            return that.CommentsModels;
+        }
+        private void set_2_CommentModel_CommentsModels(object instance, object Value)
+        {
+            var that = (global::TouristAppV3.Model.CommentModel)instance;
+            that.CommentsModels = (global::System.Collections.Generic.List<global::TouristAppV3.Model.CommentModel>)Value;
+        }
+        private object get_3_CommentModel_Name(object instance)
+        {
+            var that = (global::TouristAppV3.Model.CommentModel)instance;
+            return that.Name;
+        }
+        private void set_3_CommentModel_Name(object instance, object Value)
+        {
+            var that = (global::TouristAppV3.Model.CommentModel)instance;
+            that.Name = (global::System.String)Value;
+        }
+        private object get_4_CommentModel_Content(object instance)
+        {
+            var that = (global::TouristAppV3.Model.CommentModel)instance;
+            return that.Content;
+        }
+        private void set_4_CommentModel_Content(object instance, object Value)
+        {
+            var that = (global::TouristAppV3.Model.CommentModel)instance;
+            that.Content = (global::System.String)Value;
+        }
+        private object get_5_CommentViewModel_SelectedItrem(object instance)
+        {
+            var that = (global::TouristAppV3.ViewModel.CommentViewModel)instance;
+            return that.SelectedItrem;
+        }
+        private void set_5_CommentViewModel_SelectedItrem(object instance, object Value)
+        {
+            var that = (global::TouristAppV3.ViewModel.CommentViewModel)instance;
+            that.SelectedItrem = (global::TouristAppV3.Model.CategoryItemModel)Value;
+        }
+        private object get_6_CommentViewModel_CategoriesModels(object instance)
+        {
+            var that = (global::TouristAppV3.ViewModel.CommentViewModel)instance;
             return that.CategoriesModels;
         }
-        private void set_2_MainViewModel_CategoriesModels(object instance, object Value)
+        private void set_6_CommentViewModel_CategoriesModels(object instance, object Value)
         {
-            var that = (global::TouristAppV3.ViewModel.MainViewModel)instance;
+            var that = (global::TouristAppV3.ViewModel.CommentViewModel)instance;
             that.CategoriesModels = (global::System.Collections.ObjectModel.ObservableCollection<global::TouristAppV3.Model.Categories>)Value;
         }
-        private object get_3_Categories_Name(object instance)
+        private object get_7_Categories_Name(object instance)
         {
             var that = (global::TouristAppV3.Model.Categories)instance;
             return that.Name;
         }
-        private void set_3_Categories_Name(object instance, object Value)
+        private void set_7_Categories_Name(object instance, object Value)
         {
             var that = (global::TouristAppV3.Model.Categories)instance;
             that.Name = (global::System.String)Value;
         }
-        private object get_4_Categories_CategoryItems(object instance)
+        private object get_8_Categories_CategoryItems(object instance)
         {
             var that = (global::TouristAppV3.Model.Categories)instance;
             return that.CategoryItems;
         }
-        private void set_4_Categories_CategoryItems(object instance, object Value)
+        private void set_8_Categories_CategoryItems(object instance, object Value)
         {
             var that = (global::TouristAppV3.Model.Categories)instance;
             that.CategoryItems = (global::System.Collections.Generic.List<global::TouristAppV3.Model.CategoryItemModel>)Value;
         }
-        private object get_5_CategoryItemModel_Name(object instance)
+        private object get_9_CategoryItemModel_Comments(object instance)
+        {
+            var that = (global::TouristAppV3.Model.CategoryItemModel)instance;
+            return that.Comments;
+        }
+        private void set_9_CategoryItemModel_Comments(object instance, object Value)
+        {
+            var that = (global::TouristAppV3.Model.CategoryItemModel)instance;
+            that.Comments = (global::System.Collections.Generic.List<global::TouristAppV3.Model.CommentModel>)Value;
+        }
+        private object get_10_CategoryItemModel_Name(object instance)
         {
             var that = (global::TouristAppV3.Model.CategoryItemModel)instance;
             return that.Name;
         }
-        private void set_5_CategoryItemModel_Name(object instance, object Value)
+        private void set_10_CategoryItemModel_Name(object instance, object Value)
         {
             var that = (global::TouristAppV3.Model.CategoryItemModel)instance;
             that.Name = (global::System.String)Value;
         }
-        private object get_6_CategoryItemModel_Adress(object instance)
+        private object get_11_CategoryItemModel_Adress(object instance)
         {
             var that = (global::TouristAppV3.Model.CategoryItemModel)instance;
             return that.Adress;
         }
-        private void set_6_CategoryItemModel_Adress(object instance, object Value)
+        private void set_11_CategoryItemModel_Adress(object instance, object Value)
         {
             var that = (global::TouristAppV3.Model.CategoryItemModel)instance;
             that.Adress = (global::System.String)Value;
         }
-        private object get_7_CategoryItemModel_ImageUrl(object instance)
+        private object get_12_CategoryItemModel_ImageUrl(object instance)
         {
             var that = (global::TouristAppV3.Model.CategoryItemModel)instance;
             return that.ImageUrl;
         }
-        private void set_7_CategoryItemModel_ImageUrl(object instance, object Value)
+        private void set_12_CategoryItemModel_ImageUrl(object instance, object Value)
         {
             var that = (global::TouristAppV3.Model.CategoryItemModel)instance;
             that.ImageUrl = (global::System.String)Value;
         }
-        private object get_8_CategoryItemModel_Web(object instance)
+        private object get_13_CategoryItemModel_Web(object instance)
         {
             var that = (global::TouristAppV3.Model.CategoryItemModel)instance;
             return that.Web;
         }
-        private void set_8_CategoryItemModel_Web(object instance, object Value)
+        private void set_13_CategoryItemModel_Web(object instance, object Value)
         {
             var that = (global::TouristAppV3.Model.CategoryItemModel)instance;
             that.Web = (global::System.String)Value;
         }
-        private object get_9_CategoryItemModel_Email(object instance)
+        private object get_14_CategoryItemModel_Email(object instance)
         {
             var that = (global::TouristAppV3.Model.CategoryItemModel)instance;
             return that.Email;
         }
-        private void set_9_CategoryItemModel_Email(object instance, object Value)
+        private void set_14_CategoryItemModel_Email(object instance, object Value)
         {
             var that = (global::TouristAppV3.Model.CategoryItemModel)instance;
             that.Email = (global::System.String)Value;
         }
-        private object get_10_CategoryItemModel_Phone(object instance)
+        private object get_15_CategoryItemModel_Phone(object instance)
         {
             var that = (global::TouristAppV3.Model.CategoryItemModel)instance;
             return that.Phone;
         }
-        private void set_10_CategoryItemModel_Phone(object instance, object Value)
+        private void set_15_CategoryItemModel_Phone(object instance, object Value)
         {
             var that = (global::TouristAppV3.Model.CategoryItemModel)instance;
             that.Phone = (global::System.String)Value;
         }
-        private object get_11_CategoryItemModel_Category(object instance)
+        private object get_16_CategoryItemModel_Category(object instance)
         {
             var that = (global::TouristAppV3.Model.CategoryItemModel)instance;
             return that.Category;
         }
-        private void set_11_CategoryItemModel_Category(object instance, object Value)
+        private void set_16_CategoryItemModel_Category(object instance, object Value)
         {
             var that = (global::TouristAppV3.Model.CategoryItemModel)instance;
             that.Category = (global::System.String)Value;
         }
-        private object get_12_Categories_CategBox(object instance)
+        private object get_17_Categories_CategBox(object instance)
         {
             var that = (global::TouristAppV3.Model.Categories)instance;
             return that.CategBox;
         }
-        private void set_12_Categories_CategBox(object instance, object Value)
+        private void set_17_Categories_CategBox(object instance, object Value)
         {
             var that = (global::TouristAppV3.Model.Categories)instance;
             that.CategBox = (global::Windows.UI.Xaml.Controls.ComboBox)Value;
         }
-        private object get_13_Categories_ImageUrl(object instance)
+        private object get_18_Categories_ImageUrl(object instance)
         {
             var that = (global::TouristAppV3.Model.Categories)instance;
             return that.ImageUrl;
         }
-        private void set_13_Categories_ImageUrl(object instance, object Value)
+        private void set_18_Categories_ImageUrl(object instance, object Value)
         {
             var that = (global::TouristAppV3.Model.Categories)instance;
             that.ImageUrl = (global::System.String)Value;
         }
-        private object get_14_MainViewModel_RemoveSelectedCategoryItem(object instance)
+        private object get_19_CommentViewModel_CategoryItems(object instance)
+        {
+            var that = (global::TouristAppV3.ViewModel.CommentViewModel)instance;
+            return that.CategoryItems;
+        }
+        private void set_19_CommentViewModel_CategoryItems(object instance, object Value)
+        {
+            var that = (global::TouristAppV3.ViewModel.CommentViewModel)instance;
+            that.CategoryItems = (global::System.Collections.ObjectModel.ObservableCollection<global::TouristAppV3.Model.CategoryItemModel>)Value;
+        }
+        private object get_20_CommentViewModel_CommentModels(object instance)
+        {
+            var that = (global::TouristAppV3.ViewModel.CommentViewModel)instance;
+            return that.CommentModels;
+        }
+        private void set_20_CommentViewModel_CommentModels(object instance, object Value)
+        {
+            var that = (global::TouristAppV3.ViewModel.CommentViewModel)instance;
+            that.CommentModels = (global::System.Collections.ObjectModel.ObservableCollection<global::TouristAppV3.Model.CommentModel>)Value;
+        }
+        private object get_21_CommentViewModel_SelectedCategoryItemModel(object instance)
+        {
+            var that = (global::TouristAppV3.ViewModel.CommentViewModel)instance;
+            return that.SelectedCategoryItemModel;
+        }
+        private void set_21_CommentViewModel_SelectedCategoryItemModel(object instance, object Value)
+        {
+            var that = (global::TouristAppV3.ViewModel.CommentViewModel)instance;
+            that.SelectedCategoryItemModel = (global::TouristAppV3.Model.CategoryItemModel)Value;
+        }
+        private object get_22_CommentViewModel_SelectedCategory(object instance)
+        {
+            var that = (global::TouristAppV3.ViewModel.CommentViewModel)instance;
+            return that.SelectedCategory;
+        }
+        private void set_22_CommentViewModel_SelectedCategory(object instance, object Value)
+        {
+            var that = (global::TouristAppV3.ViewModel.CommentViewModel)instance;
+            that.SelectedCategory = (global::TouristAppV3.Model.Categories)Value;
+        }
+        private object get_23_CommentViewModel_SelectedCommentModel(object instance)
+        {
+            var that = (global::TouristAppV3.ViewModel.CommentViewModel)instance;
+            return that.SelectedCommentModel;
+        }
+        private void set_23_CommentViewModel_SelectedCommentModel(object instance, object Value)
+        {
+            var that = (global::TouristAppV3.ViewModel.CommentViewModel)instance;
+            that.SelectedCommentModel = (global::TouristAppV3.Model.CommentModel)Value;
+        }
+        private object get_24_CommentViewModel_NewCommentModel(object instance)
+        {
+            var that = (global::TouristAppV3.ViewModel.CommentViewModel)instance;
+            return that.NewCommentModel;
+        }
+        private void set_24_CommentViewModel_NewCommentModel(object instance, object Value)
+        {
+            var that = (global::TouristAppV3.ViewModel.CommentViewModel)instance;
+            that.NewCommentModel = (global::TouristAppV3.Model.CommentModel)Value;
+        }
+        private object get_25_CommentViewModel_AddNewComment(object instance)
+        {
+            var that = (global::TouristAppV3.ViewModel.CommentViewModel)instance;
+            return that.AddNewComment;
+        }
+        private void set_25_CommentViewModel_AddNewComment(object instance, object Value)
+        {
+            var that = (global::TouristAppV3.ViewModel.CommentViewModel)instance;
+            that.AddNewComment = (global::System.Windows.Input.ICommand)Value;
+        }
+        private object get_26_CommentViewModel_SaveNewComment(object instance)
+        {
+            var that = (global::TouristAppV3.ViewModel.CommentViewModel)instance;
+            return that.SaveNewComment;
+        }
+        private void set_26_CommentViewModel_SaveNewComment(object instance, object Value)
+        {
+            var that = (global::TouristAppV3.ViewModel.CommentViewModel)instance;
+            that.SaveNewComment = (global::System.Windows.Input.ICommand)Value;
+        }
+        private object get_27_MainViewModel_EditCategoryItemName(object instance)
+        {
+            var that = (global::TouristAppV3.ViewModel.MainViewModel)instance;
+            return that.EditCategoryItemName;
+        }
+        private void set_27_MainViewModel_EditCategoryItemName(object instance, object Value)
+        {
+            var that = (global::TouristAppV3.ViewModel.MainViewModel)instance;
+            that.EditCategoryItemName = (global::System.Windows.Input.ICommand)Value;
+        }
+        private object get_28_MainViewModel_SelectedCategory(object instance)
+        {
+            var that = (global::TouristAppV3.ViewModel.MainViewModel)instance;
+            return that.SelectedCategory;
+        }
+        private void set_28_MainViewModel_SelectedCategory(object instance, object Value)
+        {
+            var that = (global::TouristAppV3.ViewModel.MainViewModel)instance;
+            that.SelectedCategory = (global::TouristAppV3.Model.Categories)Value;
+        }
+        private object get_29_MainViewModel_CategoriesModels(object instance)
+        {
+            var that = (global::TouristAppV3.ViewModel.MainViewModel)instance;
+            return that.CategoriesModels;
+        }
+        private void set_29_MainViewModel_CategoriesModels(object instance, object Value)
+        {
+            var that = (global::TouristAppV3.ViewModel.MainViewModel)instance;
+            that.CategoriesModels = (global::System.Collections.ObjectModel.ObservableCollection<global::TouristAppV3.Model.Categories>)Value;
+        }
+        private object get_30_MainViewModel_RemoveSelectedCategoryItem(object instance)
         {
             var that = (global::TouristAppV3.ViewModel.MainViewModel)instance;
             return that.RemoveSelectedCategoryItem;
         }
-        private void set_14_MainViewModel_RemoveSelectedCategoryItem(object instance, object Value)
+        private void set_30_MainViewModel_RemoveSelectedCategoryItem(object instance, object Value)
         {
             var that = (global::TouristAppV3.ViewModel.MainViewModel)instance;
             that.RemoveSelectedCategoryItem = (global::System.Windows.Input.ICommand)Value;
         }
-        private object get_15_MainViewModel_AddNewCategoryItem(object instance)
+        private object get_31_MainViewModel_AddNewCategoryItem(object instance)
         {
             var that = (global::TouristAppV3.ViewModel.MainViewModel)instance;
             return that.AddNewCategoryItem;
         }
-        private void set_15_MainViewModel_AddNewCategoryItem(object instance, object Value)
+        private void set_31_MainViewModel_AddNewCategoryItem(object instance, object Value)
         {
             var that = (global::TouristAppV3.ViewModel.MainViewModel)instance;
             that.AddNewCategoryItem = (global::System.Windows.Input.ICommand)Value;
         }
-        private object get_16_MainViewModel_NewCategoryItemModel(object instance)
+        private object get_32_MainViewModel_NewCategoryItemModel(object instance)
         {
             var that = (global::TouristAppV3.ViewModel.MainViewModel)instance;
             return that.NewCategoryItemModel;
         }
-        private void set_16_MainViewModel_NewCategoryItemModel(object instance, object Value)
+        private void set_32_MainViewModel_NewCategoryItemModel(object instance, object Value)
         {
             var that = (global::TouristAppV3.ViewModel.MainViewModel)instance;
             that.NewCategoryItemModel = (global::TouristAppV3.Model.CategoryItemModel)Value;
         }
-        private object get_17_MainViewModel_SelectedCategoryItemModel(object instance)
+        private object get_33_MainViewModel_SelectedCategoryItemModel(object instance)
         {
             var that = (global::TouristAppV3.ViewModel.MainViewModel)instance;
             return that.SelectedCategoryItemModel;
         }
-        private void set_17_MainViewModel_SelectedCategoryItemModel(object instance, object Value)
+        private void set_33_MainViewModel_SelectedCategoryItemModel(object instance, object Value)
         {
             var that = (global::TouristAppV3.ViewModel.MainViewModel)instance;
             that.SelectedCategoryItemModel = (global::TouristAppV3.Model.CategoryItemModel)Value;
         }
-        private object get_18_MainViewModel_CategoryItems(object instance)
+        private object get_34_MainViewModel_CategoryItems(object instance)
         {
             var that = (global::TouristAppV3.ViewModel.MainViewModel)instance;
             return that.CategoryItems;
         }
-        private void set_18_MainViewModel_CategoryItems(object instance, object Value)
+        private void set_34_MainViewModel_CategoryItems(object instance, object Value)
         {
             var that = (global::TouristAppV3.ViewModel.MainViewModel)instance;
             that.CategoryItems = (global::System.Collections.ObjectModel.ObservableCollection<global::TouristAppV3.Model.CategoryItemModel>)Value;
         }
-        private object get_19_OrderViewModel_SelectedCategory(object instance)
+        private object get_35_OrderViewModel_SelectedCategory(object instance)
         {
             var that = (global::TouristAppV3.ViewModel.OrderViewModel)instance;
             return that.SelectedCategory;
         }
-        private void set_19_OrderViewModel_SelectedCategory(object instance, object Value)
+        private void set_35_OrderViewModel_SelectedCategory(object instance, object Value)
         {
             var that = (global::TouristAppV3.ViewModel.OrderViewModel)instance;
             that.SelectedCategory = (global::TouristAppV3.Model.Categories)Value;
         }
-        private object get_20_OrderViewModel_CategoriesModels(object instance)
+        private object get_36_OrderViewModel_CategoriesModels(object instance)
         {
             var that = (global::TouristAppV3.ViewModel.OrderViewModel)instance;
             return that.CategoriesModels;
         }
-        private void set_20_OrderViewModel_CategoriesModels(object instance, object Value)
+        private void set_36_OrderViewModel_CategoriesModels(object instance, object Value)
         {
             var that = (global::TouristAppV3.ViewModel.OrderViewModel)instance;
             that.CategoriesModels = (global::System.Collections.ObjectModel.ObservableCollection<global::TouristAppV3.Model.Categories>)Value;
         }
-        private object get_21_OrderViewModel_SelectedCategoryItemModel(object instance)
+        private object get_37_OrderViewModel_SelectedCategoryItemModel(object instance)
         {
             var that = (global::TouristAppV3.ViewModel.OrderViewModel)instance;
             return that.SelectedCategoryItemModel;
         }
-        private void set_21_OrderViewModel_SelectedCategoryItemModel(object instance, object Value)
+        private void set_37_OrderViewModel_SelectedCategoryItemModel(object instance, object Value)
         {
             var that = (global::TouristAppV3.ViewModel.OrderViewModel)instance;
             that.SelectedCategoryItemModel = (global::TouristAppV3.Model.CategoryItemModel)Value;
         }
-        private object get_22_OrderViewModel_CategoryItems(object instance)
+        private object get_38_OrderViewModel_CategoryItems(object instance)
         {
             var that = (global::TouristAppV3.ViewModel.OrderViewModel)instance;
             return that.CategoryItems;
         }
-        private void set_22_OrderViewModel_CategoryItems(object instance, object Value)
+        private void set_38_OrderViewModel_CategoryItems(object instance, object Value)
         {
             var that = (global::TouristAppV3.ViewModel.OrderViewModel)instance;
             that.CategoryItems = (global::System.Collections.ObjectModel.ObservableCollection<global::TouristAppV3.Model.CategoryItemModel>)Value;
@@ -615,143 +869,239 @@ namespace TouristAppV3.TouristAppV3_XamlTypeInfo
 
             switch (longMemberName)
             {
-            case "TouristAppV3.ViewModel.MainViewModel.EditCategoryItemName":
-                userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.ViewModel.MainViewModel");
-                xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "EditCategoryItemName", "System.Windows.Input.ICommand");
-                xamlMember.Getter = get_0_MainViewModel_EditCategoryItemName;
-                xamlMember.Setter = set_0_MainViewModel_EditCategoryItemName;
+            case "TouristAppV3.ViewModel.CommentViewModel.DeleteSelectedComment":
+                userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.ViewModel.CommentViewModel");
+                xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "DeleteSelectedComment", "System.Windows.Input.ICommand");
+                xamlMember.Getter = get_0_CommentViewModel_DeleteSelectedComment;
+                xamlMember.Setter = set_0_CommentViewModel_DeleteSelectedComment;
                 break;
-            case "TouristAppV3.ViewModel.MainViewModel.SelectedCategory":
-                userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.ViewModel.MainViewModel");
-                xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "SelectedCategory", "TouristAppV3.Model.Categories");
-                xamlMember.Getter = get_1_MainViewModel_SelectedCategory;
-                xamlMember.Setter = set_1_MainViewModel_SelectedCategory;
+            case "TouristAppV3.ViewModel.CommentViewModel.Comments":
+                userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.ViewModel.CommentViewModel");
+                xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "Comments", "System.Collections.Generic.List`1<TouristAppV3.Model.CommentModel>");
+                xamlMember.Getter = get_1_CommentViewModel_Comments;
+                xamlMember.Setter = set_1_CommentViewModel_Comments;
                 break;
-            case "TouristAppV3.ViewModel.MainViewModel.CategoriesModels":
-                userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.ViewModel.MainViewModel");
+            case "TouristAppV3.Model.CommentModel.CommentsModels":
+                userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.Model.CommentModel");
+                xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "CommentsModels", "System.Collections.Generic.List`1<TouristAppV3.Model.CommentModel>");
+                xamlMember.Getter = get_2_CommentModel_CommentsModels;
+                xamlMember.Setter = set_2_CommentModel_CommentsModels;
+                break;
+            case "TouristAppV3.Model.CommentModel.Name":
+                userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.Model.CommentModel");
+                xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "Name", "String");
+                xamlMember.Getter = get_3_CommentModel_Name;
+                xamlMember.Setter = set_3_CommentModel_Name;
+                break;
+            case "TouristAppV3.Model.CommentModel.Content":
+                userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.Model.CommentModel");
+                xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "Content", "String");
+                xamlMember.Getter = get_4_CommentModel_Content;
+                xamlMember.Setter = set_4_CommentModel_Content;
+                break;
+            case "TouristAppV3.ViewModel.CommentViewModel.SelectedItrem":
+                userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.ViewModel.CommentViewModel");
+                xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "SelectedItrem", "TouristAppV3.Model.CategoryItemModel");
+                xamlMember.Getter = get_5_CommentViewModel_SelectedItrem;
+                xamlMember.Setter = set_5_CommentViewModel_SelectedItrem;
+                break;
+            case "TouristAppV3.ViewModel.CommentViewModel.CategoriesModels":
+                userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.ViewModel.CommentViewModel");
                 xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "CategoriesModels", "System.Collections.ObjectModel.ObservableCollection`1<TouristAppV3.Model.Categories>");
-                xamlMember.Getter = get_2_MainViewModel_CategoriesModels;
-                xamlMember.Setter = set_2_MainViewModel_CategoriesModels;
+                xamlMember.Getter = get_6_CommentViewModel_CategoriesModels;
+                xamlMember.Setter = set_6_CommentViewModel_CategoriesModels;
                 break;
             case "TouristAppV3.Model.Categories.Name":
                 userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.Model.Categories");
                 xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "Name", "String");
-                xamlMember.Getter = get_3_Categories_Name;
-                xamlMember.Setter = set_3_Categories_Name;
+                xamlMember.Getter = get_7_Categories_Name;
+                xamlMember.Setter = set_7_Categories_Name;
                 break;
             case "TouristAppV3.Model.Categories.CategoryItems":
                 userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.Model.Categories");
                 xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "CategoryItems", "System.Collections.Generic.List`1<TouristAppV3.Model.CategoryItemModel>");
-                xamlMember.Getter = get_4_Categories_CategoryItems;
-                xamlMember.Setter = set_4_Categories_CategoryItems;
+                xamlMember.Getter = get_8_Categories_CategoryItems;
+                xamlMember.Setter = set_8_Categories_CategoryItems;
+                break;
+            case "TouristAppV3.Model.CategoryItemModel.Comments":
+                userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.Model.CategoryItemModel");
+                xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "Comments", "System.Collections.Generic.List`1<TouristAppV3.Model.CommentModel>");
+                xamlMember.Getter = get_9_CategoryItemModel_Comments;
+                xamlMember.Setter = set_9_CategoryItemModel_Comments;
                 break;
             case "TouristAppV3.Model.CategoryItemModel.Name":
                 userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.Model.CategoryItemModel");
                 xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "Name", "String");
-                xamlMember.Getter = get_5_CategoryItemModel_Name;
-                xamlMember.Setter = set_5_CategoryItemModel_Name;
+                xamlMember.Getter = get_10_CategoryItemModel_Name;
+                xamlMember.Setter = set_10_CategoryItemModel_Name;
                 break;
             case "TouristAppV3.Model.CategoryItemModel.Adress":
                 userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.Model.CategoryItemModel");
                 xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "Adress", "String");
-                xamlMember.Getter = get_6_CategoryItemModel_Adress;
-                xamlMember.Setter = set_6_CategoryItemModel_Adress;
+                xamlMember.Getter = get_11_CategoryItemModel_Adress;
+                xamlMember.Setter = set_11_CategoryItemModel_Adress;
                 break;
             case "TouristAppV3.Model.CategoryItemModel.ImageUrl":
                 userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.Model.CategoryItemModel");
                 xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "ImageUrl", "String");
-                xamlMember.Getter = get_7_CategoryItemModel_ImageUrl;
-                xamlMember.Setter = set_7_CategoryItemModel_ImageUrl;
+                xamlMember.Getter = get_12_CategoryItemModel_ImageUrl;
+                xamlMember.Setter = set_12_CategoryItemModel_ImageUrl;
                 break;
             case "TouristAppV3.Model.CategoryItemModel.Web":
                 userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.Model.CategoryItemModel");
                 xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "Web", "String");
-                xamlMember.Getter = get_8_CategoryItemModel_Web;
-                xamlMember.Setter = set_8_CategoryItemModel_Web;
+                xamlMember.Getter = get_13_CategoryItemModel_Web;
+                xamlMember.Setter = set_13_CategoryItemModel_Web;
                 break;
             case "TouristAppV3.Model.CategoryItemModel.Email":
                 userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.Model.CategoryItemModel");
                 xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "Email", "String");
-                xamlMember.Getter = get_9_CategoryItemModel_Email;
-                xamlMember.Setter = set_9_CategoryItemModel_Email;
+                xamlMember.Getter = get_14_CategoryItemModel_Email;
+                xamlMember.Setter = set_14_CategoryItemModel_Email;
                 break;
             case "TouristAppV3.Model.CategoryItemModel.Phone":
                 userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.Model.CategoryItemModel");
                 xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "Phone", "String");
-                xamlMember.Getter = get_10_CategoryItemModel_Phone;
-                xamlMember.Setter = set_10_CategoryItemModel_Phone;
+                xamlMember.Getter = get_15_CategoryItemModel_Phone;
+                xamlMember.Setter = set_15_CategoryItemModel_Phone;
                 break;
             case "TouristAppV3.Model.CategoryItemModel.Category":
                 userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.Model.CategoryItemModel");
                 xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "Category", "String");
-                xamlMember.Getter = get_11_CategoryItemModel_Category;
-                xamlMember.Setter = set_11_CategoryItemModel_Category;
+                xamlMember.Getter = get_16_CategoryItemModel_Category;
+                xamlMember.Setter = set_16_CategoryItemModel_Category;
                 break;
             case "TouristAppV3.Model.Categories.CategBox":
                 userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.Model.Categories");
                 xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "CategBox", "Windows.UI.Xaml.Controls.ComboBox");
-                xamlMember.Getter = get_12_Categories_CategBox;
-                xamlMember.Setter = set_12_Categories_CategBox;
+                xamlMember.Getter = get_17_Categories_CategBox;
+                xamlMember.Setter = set_17_Categories_CategBox;
                 break;
             case "TouristAppV3.Model.Categories.ImageUrl":
                 userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.Model.Categories");
                 xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "ImageUrl", "String");
-                xamlMember.Getter = get_13_Categories_ImageUrl;
-                xamlMember.Setter = set_13_Categories_ImageUrl;
+                xamlMember.Getter = get_18_Categories_ImageUrl;
+                xamlMember.Setter = set_18_Categories_ImageUrl;
+                break;
+            case "TouristAppV3.ViewModel.CommentViewModel.CategoryItems":
+                userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.ViewModel.CommentViewModel");
+                xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "CategoryItems", "System.Collections.ObjectModel.ObservableCollection`1<TouristAppV3.Model.CategoryItemModel>");
+                xamlMember.Getter = get_19_CommentViewModel_CategoryItems;
+                xamlMember.Setter = set_19_CommentViewModel_CategoryItems;
+                break;
+            case "TouristAppV3.ViewModel.CommentViewModel.CommentModels":
+                userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.ViewModel.CommentViewModel");
+                xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "CommentModels", "System.Collections.ObjectModel.ObservableCollection`1<TouristAppV3.Model.CommentModel>");
+                xamlMember.Getter = get_20_CommentViewModel_CommentModels;
+                xamlMember.Setter = set_20_CommentViewModel_CommentModels;
+                break;
+            case "TouristAppV3.ViewModel.CommentViewModel.SelectedCategoryItemModel":
+                userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.ViewModel.CommentViewModel");
+                xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "SelectedCategoryItemModel", "TouristAppV3.Model.CategoryItemModel");
+                xamlMember.Getter = get_21_CommentViewModel_SelectedCategoryItemModel;
+                xamlMember.Setter = set_21_CommentViewModel_SelectedCategoryItemModel;
+                break;
+            case "TouristAppV3.ViewModel.CommentViewModel.SelectedCategory":
+                userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.ViewModel.CommentViewModel");
+                xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "SelectedCategory", "TouristAppV3.Model.Categories");
+                xamlMember.Getter = get_22_CommentViewModel_SelectedCategory;
+                xamlMember.Setter = set_22_CommentViewModel_SelectedCategory;
+                break;
+            case "TouristAppV3.ViewModel.CommentViewModel.SelectedCommentModel":
+                userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.ViewModel.CommentViewModel");
+                xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "SelectedCommentModel", "TouristAppV3.Model.CommentModel");
+                xamlMember.Getter = get_23_CommentViewModel_SelectedCommentModel;
+                xamlMember.Setter = set_23_CommentViewModel_SelectedCommentModel;
+                break;
+            case "TouristAppV3.ViewModel.CommentViewModel.NewCommentModel":
+                userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.ViewModel.CommentViewModel");
+                xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "NewCommentModel", "TouristAppV3.Model.CommentModel");
+                xamlMember.Getter = get_24_CommentViewModel_NewCommentModel;
+                xamlMember.Setter = set_24_CommentViewModel_NewCommentModel;
+                break;
+            case "TouristAppV3.ViewModel.CommentViewModel.AddNewComment":
+                userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.ViewModel.CommentViewModel");
+                xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "AddNewComment", "System.Windows.Input.ICommand");
+                xamlMember.Getter = get_25_CommentViewModel_AddNewComment;
+                xamlMember.Setter = set_25_CommentViewModel_AddNewComment;
+                break;
+            case "TouristAppV3.ViewModel.CommentViewModel.SaveNewComment":
+                userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.ViewModel.CommentViewModel");
+                xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "SaveNewComment", "System.Windows.Input.ICommand");
+                xamlMember.Getter = get_26_CommentViewModel_SaveNewComment;
+                xamlMember.Setter = set_26_CommentViewModel_SaveNewComment;
+                break;
+            case "TouristAppV3.ViewModel.MainViewModel.EditCategoryItemName":
+                userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.ViewModel.MainViewModel");
+                xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "EditCategoryItemName", "System.Windows.Input.ICommand");
+                xamlMember.Getter = get_27_MainViewModel_EditCategoryItemName;
+                xamlMember.Setter = set_27_MainViewModel_EditCategoryItemName;
+                break;
+            case "TouristAppV3.ViewModel.MainViewModel.SelectedCategory":
+                userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.ViewModel.MainViewModel");
+                xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "SelectedCategory", "TouristAppV3.Model.Categories");
+                xamlMember.Getter = get_28_MainViewModel_SelectedCategory;
+                xamlMember.Setter = set_28_MainViewModel_SelectedCategory;
+                break;
+            case "TouristAppV3.ViewModel.MainViewModel.CategoriesModels":
+                userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.ViewModel.MainViewModel");
+                xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "CategoriesModels", "System.Collections.ObjectModel.ObservableCollection`1<TouristAppV3.Model.Categories>");
+                xamlMember.Getter = get_29_MainViewModel_CategoriesModels;
+                xamlMember.Setter = set_29_MainViewModel_CategoriesModels;
                 break;
             case "TouristAppV3.ViewModel.MainViewModel.RemoveSelectedCategoryItem":
                 userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.ViewModel.MainViewModel");
                 xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "RemoveSelectedCategoryItem", "System.Windows.Input.ICommand");
-                xamlMember.Getter = get_14_MainViewModel_RemoveSelectedCategoryItem;
-                xamlMember.Setter = set_14_MainViewModel_RemoveSelectedCategoryItem;
+                xamlMember.Getter = get_30_MainViewModel_RemoveSelectedCategoryItem;
+                xamlMember.Setter = set_30_MainViewModel_RemoveSelectedCategoryItem;
                 break;
             case "TouristAppV3.ViewModel.MainViewModel.AddNewCategoryItem":
                 userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.ViewModel.MainViewModel");
                 xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "AddNewCategoryItem", "System.Windows.Input.ICommand");
-                xamlMember.Getter = get_15_MainViewModel_AddNewCategoryItem;
-                xamlMember.Setter = set_15_MainViewModel_AddNewCategoryItem;
+                xamlMember.Getter = get_31_MainViewModel_AddNewCategoryItem;
+                xamlMember.Setter = set_31_MainViewModel_AddNewCategoryItem;
                 break;
             case "TouristAppV3.ViewModel.MainViewModel.NewCategoryItemModel":
                 userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.ViewModel.MainViewModel");
                 xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "NewCategoryItemModel", "TouristAppV3.Model.CategoryItemModel");
-                xamlMember.Getter = get_16_MainViewModel_NewCategoryItemModel;
-                xamlMember.Setter = set_16_MainViewModel_NewCategoryItemModel;
+                xamlMember.Getter = get_32_MainViewModel_NewCategoryItemModel;
+                xamlMember.Setter = set_32_MainViewModel_NewCategoryItemModel;
                 break;
             case "TouristAppV3.ViewModel.MainViewModel.SelectedCategoryItemModel":
                 userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.ViewModel.MainViewModel");
                 xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "SelectedCategoryItemModel", "TouristAppV3.Model.CategoryItemModel");
-                xamlMember.Getter = get_17_MainViewModel_SelectedCategoryItemModel;
-                xamlMember.Setter = set_17_MainViewModel_SelectedCategoryItemModel;
+                xamlMember.Getter = get_33_MainViewModel_SelectedCategoryItemModel;
+                xamlMember.Setter = set_33_MainViewModel_SelectedCategoryItemModel;
                 break;
             case "TouristAppV3.ViewModel.MainViewModel.CategoryItems":
                 userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.ViewModel.MainViewModel");
                 xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "CategoryItems", "System.Collections.ObjectModel.ObservableCollection`1<TouristAppV3.Model.CategoryItemModel>");
-                xamlMember.Getter = get_18_MainViewModel_CategoryItems;
-                xamlMember.Setter = set_18_MainViewModel_CategoryItems;
+                xamlMember.Getter = get_34_MainViewModel_CategoryItems;
+                xamlMember.Setter = set_34_MainViewModel_CategoryItems;
                 break;
             case "TouristAppV3.ViewModel.OrderViewModel.SelectedCategory":
                 userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.ViewModel.OrderViewModel");
                 xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "SelectedCategory", "TouristAppV3.Model.Categories");
-                xamlMember.Getter = get_19_OrderViewModel_SelectedCategory;
-                xamlMember.Setter = set_19_OrderViewModel_SelectedCategory;
+                xamlMember.Getter = get_35_OrderViewModel_SelectedCategory;
+                xamlMember.Setter = set_35_OrderViewModel_SelectedCategory;
                 break;
             case "TouristAppV3.ViewModel.OrderViewModel.CategoriesModels":
                 userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.ViewModel.OrderViewModel");
                 xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "CategoriesModels", "System.Collections.ObjectModel.ObservableCollection`1<TouristAppV3.Model.Categories>");
-                xamlMember.Getter = get_20_OrderViewModel_CategoriesModels;
-                xamlMember.Setter = set_20_OrderViewModel_CategoriesModels;
+                xamlMember.Getter = get_36_OrderViewModel_CategoriesModels;
+                xamlMember.Setter = set_36_OrderViewModel_CategoriesModels;
                 break;
             case "TouristAppV3.ViewModel.OrderViewModel.SelectedCategoryItemModel":
                 userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.ViewModel.OrderViewModel");
                 xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "SelectedCategoryItemModel", "TouristAppV3.Model.CategoryItemModel");
-                xamlMember.Getter = get_21_OrderViewModel_SelectedCategoryItemModel;
-                xamlMember.Setter = set_21_OrderViewModel_SelectedCategoryItemModel;
+                xamlMember.Getter = get_37_OrderViewModel_SelectedCategoryItemModel;
+                xamlMember.Setter = set_37_OrderViewModel_SelectedCategoryItemModel;
                 break;
             case "TouristAppV3.ViewModel.OrderViewModel.CategoryItems":
                 userType = (global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TouristAppV3.ViewModel.OrderViewModel");
                 xamlMember = new global::TouristAppV3.TouristAppV3_XamlTypeInfo.XamlMember(this, "CategoryItems", "System.Collections.ObjectModel.ObservableCollection`1<TouristAppV3.Model.CategoryItemModel>");
-                xamlMember.Getter = get_22_OrderViewModel_CategoryItems;
-                xamlMember.Setter = set_22_OrderViewModel_CategoryItems;
+                xamlMember.Getter = get_38_OrderViewModel_CategoryItems;
+                xamlMember.Setter = set_38_OrderViewModel_CategoryItems;
                 break;
             }
             return xamlMember;

@@ -104,3 +104,8 @@ C:\Users\Mònica\Downloads\TouristAppV3-master\TouristAppV3-master\TouristAppV3\
 C:\Users\Mònica\Downloads\TouristAppV3-master\TouristAppV3-master\TouristAppV3\obj\Debug\qualifiers.txt.intermediate
 C:\Users\Mònica\Downloads\TouristAppV3-master\TouristAppV3-master\TouristAppV3\obj\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Mònica\Downloads\TouristAppV3-master\TouristAppV3-master\TouristAppV3\obj\Debug\ProjectArchitectures.txt
+C:\Users\Mònica\Downloads\TouristAppV3-master\TouristAppV3-master\TouristAppV3\bin\Debug\View\CommentView.xbf
+C:\Users\Mònica\Downloads\TouristAppV3-master\TouristAppV3-master\TouristAppV3\obj\Debug\View\CommentView.g.i.cs
+C:\Users\Mònica\Downloads\TouristAppV3-master\TouristAppV3-master\TouristAppV3\obj\Debug\View\CommentView.g.cs
+C:\Users\Mònica\Downloads\TouristAppV3-master\TouristAppV3-master\TouristAppV3\obj\Debug\View\CommentView.xaml
+C:\Users\Mònica\Downloads\TouristAppV3-master\TouristAppV3-master\TouristAppV3\obj\Debug\View\CommentView.xbf
